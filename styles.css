@@ -11,18 +11,18 @@
 }
 
 #Boxed li {
-	display: inline;
-	padding: 0 0 0 0;
+  display: inline;
+  padding: 0 0 0 0;
 }
 
 #leftColumn {
-	height: 350px;
-	width: 150px;
-	background-color: #4DD7FA;
-	margin: 20px 0 0 50px;
-	float: left;
-	border: 2px solid black;
-	padding: 15px;
+  height: 350px;
+  width: 150px;
+  background-color: #4DD7FA;
+  margin: 20px 0 0 50px;
+  float: left;
+  border: 2px solid black;
+  padding: 15px;
 }
 
 .genre-box  {
@@ -30,42 +30,42 @@
 }
 
 .genre-box li {
-	display: inline-block;
+  display: inline-block;
 }
-	
+  
 .genre-box ul {
-	padding: 3px;
-}	
+  padding: 3px;
+} 
 
 #slider {
-	width: 100%;
+  width: 100%;
 }
 
 label {
-	display: block;
+  display: block;
 }
 
 select { 
-	width: 100%
+  width: 100%
 }
 
 .feedback-type li {
-	width: 100%;
+  width: 100%;
 
 }
 
 #rightColumn {
-	height: 380px;
-	width: 850px;
-	background-color: #FEFAC0;
-	margin: 20px 0 0 20px;
-	float: left;
-	border: 2px solid black;
+  height: 380px;
+  width: 850px;
+  background-color: #FEFAC0;
+  margin: 20px 0 0 20px;
+  float: left;
+  border: 2px solid black;
 }
 
 
 .song-name {
-	font-size: 29px;
+  font-size: 29px;
 }
 
 
