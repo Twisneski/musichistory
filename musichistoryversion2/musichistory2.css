@@ -1,87 +1,75 @@
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Nashville Software School</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <!doctype html>
+
+#Boxed {
+  border: 1px solid green ;
+  width: 1075px;
+  height: 45px;
+  background-color: #FFB4B0;
+  margin: 100px 0 0 50px;
+  padding: 15px 0 0 15px;
+  border: 2px solid black;
+
+}
+
+#Boxed li {
+  display: inline;
+  padding: 0 0 0 0;
+}
+
+#leftColumn {
+  height: 350px;
+  width: 150px;
+  background-color: #4DD7FA;
+  margin: 20px 0 0 50px;
+  float: left;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+.genre-box  {
+  /*width: 200px;*/
+}
+
+.genre-box li {
+  display: inline-block;
+}
   
+.genre-box ul {
+  padding: 3px;
+} 
 
-<div> id="container">
- Hi there
- </div>
+#slider {
+  width: 100%;
+}
 
-    <div id="Boxed">
-      <ul>
-        <li><a href="view.html">View Music</a></li> |
-        <li><a href="add.html">Add Music</a></li> |
-        <li><a href="profile.html">Profile</a></li>
-      </ul>
-    </div>
-    <div id="leftColumn">
-      
-      <div>
-        <legend>Song Length</legend>
-        <input id="slider" type="range" name="song-range" min="15" max="25" step="0.5" value="18.5">
-      </div>
-      <div>
-        <label for="feedback-type">Artist</label>
-        <select class="feedback-type" name="type">
-          <option>Disturbed</option>
-          <option>Metallica</option>
-          <option>Shinedown</option>
-        </select>
-      </div>
-      <div>
-        <label for="feedback-type">Album</label>
-        <select class="feedback-type" name="type">
-          <option>Acoustics Sessions</option>
-          <option>The Sound of Madness</option>
-          <option>Threat to Survival</option>
-        </select>
-      </div>
-      <div class="genre-box">
-        <legend>Genre</legend> 
-        <ul>
-          <li> <input type="checkbox" name="Rock" value="Rock"> Rock </li>
-          <li><input type="checkbox" name="Classical" value="Classical"> Classical</li>
-          <li><input type="checkbox" name="Pop" value="Pop"> Pop</li>
-          <li><input type="checkbox" name="Jazz" value="Jazz"> Jazz</li>
-          <li><input type="checkbox" name="Blues" value="Blues"> Blues</li>
-          <li> <input type="checkbox" name="HipHop" value="HipHop"> Hip Hop </li>
-          
-        </ul>
-      </div>
-      <div>
-        <input type="submit" value="Filter"></input>
-      </div>
-    </div>
-    <div id="rightColumn">
-      <div id="">
-        
-        <ul>
-          <li><span class="song-name">Song Name</span>
-            <p>Artist Name  | Album name  | Genre</p>
-          </li>
-        
-          <li><span class="song-name">Song Name</span>
-            <p>Artist Name  | Album name |  Genre</p>
-          </li>
-      
-          <li><span class="song-name">Song Name</span>
-            <p>Artist Name  | Album name |  Genre</p>
-          </li>
-          <li><span class="song-name">Song Name</span>
-            <p>Artist Name | Album name | Genre</p>
-          </li>
-        </ul>
-      </div>
-    </div>
+label {
+  display: block;
+}
+
+select { 
+  width: 100%
+}
+
+.feedback-type li {
+  width: 100%;
+
+}
+
+#rightColumn {
+  height: 380px;
+  width: 850px;
+  background-color: #FEFAC0;
+  margin: 20px 0 0 20px;
+  float: left;
+  border: 2px solid black;
+}
+
+
+.song-name {
+  font-size: 29px;
+}
 
 
 
-      <script src="musichistory2.js"></script>
 
-</body>
-</html>
+
+
