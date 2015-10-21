@@ -40,7 +40,9 @@ for (var i = 0; i < songs.length; i++) {
 
     console.log(song)
     // 2. JAMES CODE
-    songElement = "<li ><span id='songname1' class='song-name'>" + songs[i] + "</span>"
+    songElement = "<li >
+                    <span id='songname1' class='song-name'>"
+                     + songs[i] + "</span></li>"
     masterString = masterString + songElement
 }
 console.log("final:")
@@ -52,7 +54,6 @@ console.log(masterString)
 
 
 "<li ><span id='songname1' class='song-name'>Legs - by Z*Ztop on the album Eliminator</span>"
-
 
 
 

@@ -185,12 +185,11 @@ select {
   background-color: #FFF5EE;
 }*/
 
-#song-name:nth-child(2n+0) {
-  background-color: green;
-  
-}
 
-.songname1 {
-  font-weight: 900;
-}
 
+#rightColumn injectionSpot:nth-child(2n+1) {
+  background-color: #FFF5EE;
+}
+#div span:nth-of-type(2n+0) {
+  background-color: #F5FFFA
+}
