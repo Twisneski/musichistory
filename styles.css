@@ -19,32 +19,32 @@
 
 #leftColumn {
   height: 380px;
-  /*width: 150px;*/
-  /*background-color: #4DD7FA;*/
+  width: 150px;
+  background-color: #4DD7FA;
   margin: 80px 0 0 50px;
-  /*float: left;*/
+  float: left;
   border: 2px solid black;
-  /*padding: 15px;*/
+  padding: 15px;
 
   /*this is the new section with flex box*/
-  padding: 0;
-  list-style: none;
+  /*padding: 0;*/
+  /*list-style: none;*/
   /*height: 10em;*/
-  display: flex;
-  -webkit-flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  flex: 2;
-  background: #4DD7FA;
-  padding: 10px;
+  /*display: flex;*/
+  /*-webkit-flex-direction: row;*/
+  /*-webkit-flex-wrap: wrap;*/
+  /*flex: 2;*/
+  /*background: #4DD7FA;*/
+  /*padding: 10px;*/
   /* The width property here is important. Explain why */
-  width: 250px;
-  border: 3px solid rgba(0,0,0,.2);
+  /*width: 250px;*/
+  /*border: 3px solid rgba(0,0,0,.2);*/
   
   /*color: white;*/
   /*font-weight: bold;*/
   /*font-size: 2em;*/
-  text-align: center
-  back
+  /*text-align: center*/
+  /*back*/
  
 }
 
@@ -86,28 +86,28 @@ select {
 #rightColumn {
   height: 380px;
   width: 500px;
-  /*background-color: #FEFAC0;*/
+  background-color: #FEFAC0;
   margin: 80px 0 0 20px;
-  /*float: left;*/
+  float: left;
   border: 2px solid black;
+
 /*this is the new section with flex box*/
-  padding: 0;
- 
+  /*padding: 0;*/ 
   /*height: 50em;*/
-  display: flex;
-  -webkit-flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  flex: 9;
+  /*display: flex;*/
+  /*-webkit-flex-direction: row;*/
+  /*-webkit-flex-wrap: wrap;*/
+  /*flex: 9;*/
   /*background: tomato;*/
-  padding: 10px;
+  /*padding: 10px;*/
   /* The width property here is important. Explain why */
   /*width: 50px;*/
-  border: 3px solid rgba(0,0,0,.2);
+  /*border: 3px solid rgba(0,0,0,.2);*/
   /*color: white;*/
   /*font-weight: bold;*/
   /*font-size: 2em;*/
-  text-align: left;
-  list-style: none;
+  /*text-align: left;*/
+  /*list-style: none;*/
   }
 
 #injectionSpot span:nth-child(2n+1) { 
@@ -134,7 +134,7 @@ select {
 
 /*//this is the start of flex box*/
 
-.flex-container {
+/*.flex-container {
   padding: 0;
   list-style: none;
   height: 50em;
@@ -167,23 +167,23 @@ select {
   background: tomato;
   padding: 10px;
   /* The width property here is important. Explain why */
-  width: 100px;
+  /*width: 100px;
   border: 3px solid rgba(0,0,0,.2);
   
   color: white;
   font-weight: bold;
   font-size: 2em;
-  text-align: center;
-}
+  text-align: center;*/
+/*}*/
 /*//this is the end of the flex box*/
 
 
 /*#injectionSpot :nth-child(2n+0) {
   color: #FFF5EE;*/
-}
-/*#injedtionSpot:first-of-type {
-  background-color: #FFF5EE;
-}*/
+/*}*/
+/*#injedtionSpot:first-of-type {*/
+  /*background-color: #FFF5EE;*/
+/*}*/
 
 
 
