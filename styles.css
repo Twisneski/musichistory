@@ -1,5 +1,5 @@
 
-#Boxed {
+/*#Boxed {
   border: 1px solid green ;
   width: 1075px;
   height: 45px;
@@ -8,9 +8,9 @@
   padding: 15px 0 0 15px;
   border: 2px solid black;
   /*position: fixed;*/
-  position: fixed; top: 0em;
+  /*position: fixed; top: 0em;*/
 
-}
+/*}*/
 
 #Boxed li {
   display: inline;
@@ -20,11 +20,12 @@
 #leftColumn {
   height: 380px;
   width: 150px;
-  background-color: #4DD7FA;
+  background-color: green;
   margin: 80px 0 0 50px;
   float: left;
   border: 2px solid black;
   padding: 15px;
+  
 
   /*this is the new section with flex box*/
   /*padding: 0;*/
@@ -56,6 +57,7 @@
 
 .genre-box  {
   /*width: 200px;*/
+
 }
 
 .genre-box li {
@@ -86,7 +88,7 @@ select {
 #rightColumn {
   height: 380px;
   width: 500px;
-  background-color: #FEFAC0;
+  background-color: yellow;
   margin: 80px 0 0 20px;
   float: left;
   border: 2px solid black;
@@ -119,7 +121,7 @@ select {
 }
 
 .song-name {
-  font-size: 29px;
+  font-size: 23px;
 }
  
 /*.article section:nth-child(2n+0) {
@@ -193,3 +195,12 @@ select {
 #div span:nth-of-type(2n+0) {
   background-color: #F5FFFA
 }
+
+.enterMusic {
+  /*display:  none;*/
+}
+
+
+
+
+
