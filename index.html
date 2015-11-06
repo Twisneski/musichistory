@@ -2,101 +2,100 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Nashville Software School</title>
-    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <title>Music History</title>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous"> -->
+
+  
+
+
   </head>
   <body>
     <div class="container-fluid">
-        <ul class="nav nav-pills" id="Boxed">
-          <li role="presentation" class="active"><a href="#" id="viewMusic">View Music</a></li>
-          <li role="presentation"><a href="#" id="addLink">Add Music</a></li>
-          <li role="presentation"><a href="#">Profile</a></li>
-        </ul>
-      <!-- <nav id="Boxed">
-        <ul>
-          <li><a href="/" id="viewMusic">View Music</a></li> |
-          <li><a href="/" id="addLink">Add Music</a></li> |
-          <li><a href="profile.html">Profile</a></li>
-        </ul> -->
-          
-        <div class="enterMusic" id="entryMusic">
-          <input id="userSongInput" type="text" name="addMusic" value="" placeholder="song">
-          <input id="userArtistInput"type="text" name="addMusic" value="" placeholder="artist">
-          <input id="userAlbum"type="text" name="addMusic" value="" placeholder="album">
-          <button type="" id="addMusic">Add</button>
-        </div>
-      </nav>
-     
-     <div id="leftColumn">   
-        <div>
-          <legend>Song Length</legend>
-          <input id="slider" type="range" name="song-range" min="15" max="25" step="0.5" value="18.5">
-        </div>
-        <div>
-          <label for="feedback-type">Artist</label>
-          <select class="feedback-type" name="type">
-            <option>Disturbed</option>
-            <option>Metallica</option>
-            <option>Shinedown</option>
-          </select>
-        </div>
-        <div>
-          <label for="feedback-type">Album</label>
-          <select class="feedback-type" name="type">
-            <option>Acoustics Sessions</option>
-            <option>The Sound of Madness</option>
-            <option>Threat to Survival</option>
-          </select>
-        </div>
-        <div class="genre-box">
-          <legend>Genre</legend> 
+      <div>
+          <ul class="nav nav-pills" id="Boxed">
+            <li role="presentation" class="active"><a href="#" id="viewMusic">View Music</a></li>
+            <li role="presentation"><a href="#" id="addLink">Add Music</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+          </ul>
+        <!-- <nav id="Boxed">
           <ul>
-            <li><input type="checkbox" name="Rock" value="Rock"> Rock </li>
-            <li><input type="checkbox" name="Classical" value="Classical"> Classical</li>
-            <li><input type="checkbox" name="Pop" value="Pop"> Pop</li>
-            <li><input type="checkbox" name="Jazz" value="Jazz"> Jazz</li>
-            <li><input type="checkbox" name="Blues" value="Blues"> Blues</li>
-            <li><input type="checkbox" name="HipHop" value="HipHop"> Hip Hop </li>
+            <li><a href="/" id="viewMusic">View Music</a></li> |
+            <li><a href="/" id="addLink">Add Music</a></li> |
+            <li><a href="profile.html">Profile</a></li>
+          </ul> -->
             
-          </ul>
-        </div>
-        <div>
-          <input type="submit" value="Filter"></input>
-        </div>
+          <div class="enterMusic" id="entryMusic">
+            <input id="userSongInput" type="text" name="addMusic" value="" placeholder="song">
+            <input id="userArtistInput"type="text" name="addMusic" value="" placeholder="artist">
+            <input id="userAlbum"type="text" name="addMusic" value="" placeholder="album">
+            <button type="" id="addMusic">Add</button>
+          </div>
       </div>
-      
-      <!-- </div> -->
-      <div id="rightColumn">
-        <div id="">
-         
-          <ul id="injectionSpot">
-          <!-- 
-            "<li ><span id='songname1' class='song-name'>Legs by ZZTop on the album Eliminator</span>"
-              
-            </li>
-          
-            <li ><span id="songname2" class="song-name">Song Name</span>
-              <p>Artist Name  | Album name |  Genre</p>
-            </li>
-        
-            <li ><span id="songname3" class="song-name">Song Name</span>
-              <p>Artist Name  | Album name |  Genre</p>
-            </li>
-            <li><span id="songname4" class="song-name">Song Name</span>
-              <p>Artist Name | Album name | Genre</p>
-            </li> -->
-           
-          </ul>
-          <button class="moreButton" type="">More</button>
-        </div>
+ 
+       <div class="row">
+         <div id="leftColumn" class="col-md-6"> 
+            <div>
+              <legend>Song Length</legend>
+              <input id="slider" type="range" name="song-range" min="15" max="25" step="0.5" value="18.5">
+            </div>
+            <div>
+              <label for="feedback-type">Artist</label>
+              <select class="feedback-type" name="type">
+                <option>Disturbed</option>
+                <option>Metallica</option>
+                <option>Shinedown</option>
+              </select>
+            </div>
+            <div>
+              <label for="feedback-type">Album</label>
+              <select class="feedback-type" name="type">
+                <option>Acoustics Sessions</option>
+                <option>The Sound of Madness</option>
+                <option>Threat to Survival</option>
+              </select>
+            </div>
+            <div class="genre-box">
+              <legend>Genre</legend> 
+              <ul>
+                <li><input type="checkbox" name="Rock" value="Rock"> Rock </li>
+                <li><input type="checkbox" name="Classical" value="Classical"> Classical</li>
+                <li><input type="checkbox" name="Pop" value="Pop"> Pop</li>
+                <li><input type="checkbox" name="Jazz" value="Jazz"> Jazz</li>
+                <li><input type="checkbox" name="Blues" value="Blues"> Blues</li>
+                <li><input type="checkbox" name="HipHop" value="HipHop"> Hip Hop </li>
+              </ul>
+            </div>
+            <div>
+              <input type="submit" value="Filter"></input>
+            </div>
+          </div>
+
+
+
+          <div id="rightColumn" class="col-md-6">
+            <div id="">
+              <ul id="injectionSpot">
+              </ul>
+              <button class="moreButton" type="">More</button>
+            </div>
+          </div>
       </div>
     </div>
+  
     
   <script data-main="javascripts/entry"src="./lib/bower_components/requirejs/require.js"></script>
-    <!-- // <script src="./lib/bower_components/jquery/dist/jquery.min.js"></script>
-    // <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="./lib/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    // <script src="script.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+
+<!--     // <script src="script.js"></script>
     // <script src="ajax.js"></script>
    -->
 

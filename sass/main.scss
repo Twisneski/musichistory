@@ -1,11 +1,137 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
+// $font-stack:    Helvetica, sans-serif;
+// $primary-color: #333;
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-}
+// @import "Boxed";
 
-h2 {
-	font: $font-stack;
-}
+// // @mixin default-box {
+// // 	$borderColor: #666;
+// // 	border: 1px solid $borderColor;
+// // 	clear: both;
+// // 	display: block;
+// // 	margin: 5px 0;
+// // 	padding: 5px 10px;
+
+
+// body {
+//   font: 100% $font-stack;
+//   color: $primary-color;
+// }
+
+// h2 {
+// 	font: $font-stack;
+// }
+
+
+
+// #Boxed li {
+//   // display: inline;
+//   // padding: 0 0 0 0;
+// }
+
+// #leftColumn {
+//   // height: 380px;
+//   // width: 150px;
+//   background-color: green;
+//   // margin: 80px 0 0 50px;
+//   // float: left;
+//   // border: 2px solid black;
+//   // padding: 15px;
+ 
+// }
+
+
+
+// footer, header{ @include default-box; }
+
+
+
+// #leftColumn {
+
+// }
+
+// .genre-box  {
+
+
+// }
+
+// .genre-box li {
+//   // display: inline-block;
+// }
+  
+// .genre-box ul {
+//   // padding: 3px;
+// } 
+
+// #slider {
+//   // width: 100%;
+// }
+
+// label {
+//   // display: block;
+// }
+
+// select { 
+//   // width: 100%
+// }
+
+// .feedback-type li {
+//   // width: 100%;
+
+// }
+
+// #rightColumn {
+//   // height: 380px;
+//   // width: 500px;
+//   background-color: yellow;
+//   // margin: 80px 0 0 20px;
+//   float: left;
+//   // border: 2px solid black;
+
+
+//   }
+
+// #injectionSpot span:nth-child(2n+1) { 
+//   background-color: #FFF5EE; 
+// }
+
+// #injectionSpot span:nth-child(2n+0) { 
+//   background-color: #F5FFFA; 
+// }
+
+// .song-name {
+//   font-size: 23px;
+// }
+ 
+
+// //   flex-grow: 1;{
+// // }
+
+// // .sidebar__right { 
+// //   flex-grow: 1;
+// // }
+
+// // .main {
+// //   flex-grow: 10;
+// // }
+
+// .flex-item {  
+//   background: tomato;
+//   padding: 10px;
+// }
+ 
+
+// #rightColumn injectionSpot:nth-child(2n+1) {
+//   background-color: #FFF5EE;
+// }
+// #div span:nth-of-type(2n+0) {
+//   background-color: #F5FFFA
+// }
+
+// .enterMusic {
+
+// }
+
+
+
+
+
