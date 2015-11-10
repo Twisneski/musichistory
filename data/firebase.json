@@ -1,0 +1,20 @@
+{
+  "songs": {
+    "walk": {
+      "title": "The Walk", 
+      "artist": "Mayer Hawthorne",
+      "album": "How Do You Do"
+    }, 
+    "medicine": {
+      "title": "Medicine", 
+      "artist": "Grace Potter",
+      "album": "Grace Potter and the Nocturnals"
+    },
+    "legs": {
+      "title": "Legs", 
+      "artist": "ZZ Top",
+      "album": "Eliminator"
+    }
+  }
+}
+

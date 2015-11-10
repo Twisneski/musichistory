@@ -4,7 +4,7 @@ define(["jquery"],
 
 return {
     loadMore: function(callbackFunctionReference) {
-      $.ajax({url: "../data/mhaddl.json"})
+      $.ajax({url: "https://blistering-heat-398.firebaseio.com/.json"})
       .done(function(jsonDataSentByjQuery) {
         callbackFunctionReference(jsonDataSentByjQuery);
       });
