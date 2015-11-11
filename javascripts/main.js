@@ -4,8 +4,7 @@ var newSong = {
 	title: $("#songName").val(),
 	artist: $("#artistName").val(),
 	album: {
-		name: $("albumName").val(,
-		// year: $("albumYear").val()
+		name: $("albumName").val(),
 	}
 };
 

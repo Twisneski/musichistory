@@ -45,7 +45,7 @@
               <legend>Song Length</legend>
               <input id="slider" type="range" name="song-range" min="15" max="25" step="0.5" value="18.5">
             </div>
-            <div>
+            <!-- <div>
               <label for="feedback-type">Artist</label>
               <select class="feedback-type" name="type">
                 <option>Disturbed</option>
@@ -60,7 +60,7 @@
                 <option>The Sound of Madness</option>
                 <option>Threat to Survival</option>
               </select>
-            </div>
+            </div> -->
             <div class="genre-box">
               <legend>Genre</legend> 
               <ul>
@@ -70,18 +70,26 @@
                 <li><input type="checkbox" name="Jazz" value="Jazz"> Jazz</li>
                 <li><input type="checkbox" name="Blues" value="Blues"> Blues</li>
                 <li><input type="checkbox" name="HipHop" value="HipHop"> Hip Hop </li>
-              </ul>
-            </div>
+              </ul>    
+              </div>
+
+              <div class="filter">
+              <select id="selectSong" value="song">Song</select>
+              <select id="selectArtist"value="artist">Artist</select>
+              <select id="selectAlbum" value="album">Album</select> 
+              <!-- <select><option id="selectGenre" value="genre">Genre</option></select>  -->
+              </div>
+
             <div>
               <input type="submit" value="Filter"></input>
             </div>
-          </div>
+        
 
 
      
           <div id="rightColumn" class="col-md-6">
             <div id="injectionSpot">
-              <button class="moreButton" type="">More</button>
+              <!-- <button class="moreButton" type="">More</button> -->
             </div>
           </div>
 

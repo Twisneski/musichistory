@@ -21,25 +21,27 @@ define(["jquery", "get-more-songs"],
         $("#entryMusic").hide();
    }
 
-
-    $("#addMusic").click(addToSongList);
-
-    
+   console.log("getmoresongs", getmoresongs.addToSongList);
+    $("#addMusic").click(getmoresongs.addToSongList);
         
-    });
+  
 
     
 return {
     populateSongs: function(callbackFunctionReference) {
       $.ajax({
         url: "https://blistering-heat-398.firebaseio.com/.json",
-      }
+        method: "GET"
+              })
       .done(function(jsonDataSentByjQuery) {
         callbackFunctionReference(jsonDataSentByjQuery);
-      }));
+        console.log("jsonDataSentByjQuery", jsonDataSentByjQuery)
+      });
     }
- };
+  };
 });
+
+
 
 
 
