@@ -20,67 +20,23 @@
     <h1>Music History<h1>
     </header>
 
-<script id="musicId" type="text/x-handlebars-template">
-  <div>
-    {{#each }}
-      <table>
-        <tr>
-          <th>{{name}}</th>
-        </tr>
 
-        <tr>
-        {{#eah types}}
-        <td>{{type}}</td>
-        {{/each}}
-        </tr>
-
-        <tr>
-        {{#each types}}
-        {{#each volumes}}
-          <td>{{size}}: ${{price}}</td>
-          {{/each}}
-          {{/each}}
-          </tr>
-
-        </table>
-      {{/each}}
-  </div>
-</script>
-
-
-
-
-
-
-
-
-
-
-
-</script>
-
-  <!--   <div class="container">
+    <div class="container">
       <div>
           <ul class="nav nav-pills" id="Boxed">
             <li role="presentation" class="active"><a href="#" id="viewMusic">View Music</a></li>
             <li role="presentation"><a href="#" id="addLink">Add Music</a></li>
             <li role="presentation"><a href="#">Profile</a></li>
-          </ul> -->
-
-
-       <!--  <nav id="Boxed">
-          <ul>
-            <li><a href="/" id="viewMusic">View Music</a></li> |
-            <li><a href="/" id="addLink">Add Music</a></li> |
-            <li><a href="profile.html">Profile</a></li>
           </ul>
-            
+
+
+        <nav id="Boxed">        
           <div class="enterMusic" id="entryMusic">
             <input id="userSongInput" type="text" name="addMusic" value="" placeholder="song">
             <input id="userArtistInput"type="text" name="addMusic" value="" placeholder="artist">
             <input id="userAlbum"type="text" name="addMusic" value="" placeholder="album">
             <button type="" id="addMusic">Add</button>
-          </div>
+        </nav>
       </div>
  
        <div class="row">
@@ -124,17 +80,14 @@
 
      
           <div id="rightColumn" class="col-md-6">
-            <div id="">
-              <ul id="injectionSpot">
-              </ul>
+            <div id="injectionSpot">
               <button class="moreButton" type="">More</button>
-              
             </div>
           </div>
 
           
       </div>
-    </div>  -->
+    </div> 
  
   
     
