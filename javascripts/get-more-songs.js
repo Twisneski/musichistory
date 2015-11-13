@@ -17,7 +17,7 @@ return {
           album: album,
           artist: artist,
           title: songInput
-        }
+        };
     
       $.ajax({url: "https://blistering-heat-398.firebaseio.com/songs.json",
         method: "POST",

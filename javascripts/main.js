@@ -11,8 +11,9 @@ var newSong = {
 $.ajax({
 	url: "https://blistering-heat-398.firebaseio.com/.json"
 	method: "POST",
-	data: JSON.stringify(newSong)
-}).done:(function(addedSong) {
+	data: JSON.stringify(newSong);
+	})
+	.done:(function(addedSong) {
  	console.log("Your new song is", addedSong);
  	});
 });

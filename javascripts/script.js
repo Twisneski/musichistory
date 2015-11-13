@@ -16,15 +16,15 @@ require(["jquery", "bootstrap", "populate-songs", "get-more-songs", "hbs"],
       	require(["hbs!../templates/album"], function(songTemplate) {
       		$("#selectAlbum").append(songTemplate(SongsObject));
       		 });
-      		console.log("selectAlbum", selectAlbum)
+      		console.log("selectAlbum", selectAlbum);
       	require(["hbs!../templates/artist"], function(songTemplate) {
       		$("#selectArtist").append(songTemplate(SongsObject));
       		 });
-      		 console.log("selectArtist", selectArtist) 
+      		 console.log("selectArtist", selectArtist);
  	}
 
       
-        populate.populateSongs(doSomethingWithTheData);
+        // populate.populateSongs(doSomethingWithTheData);
        
 
 
