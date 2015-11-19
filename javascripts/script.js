@@ -1,7 +1,7 @@
 // $(document).ready(function(){  
 //this is how you load just jquery. not needed for require.  use require/function and define/function for attached docs
-require(["jquery", "bootstrap", "populate-songs", "get-more-songs", "hbs"], 
-    function($, bootstrap, populate, getMoreSongs, hbs){
+require(["jquery", "bootstrap", "populate-songs", "get-more-songs", "hbs!../templates/songs", "delete", "filter"], 
+    function($, bootstrap, populate, getMoreSongs, hbs, deleteFile, filter){
 
       function doSomethingWithTheData(SongsObject) {
       	
@@ -22,12 +22,5 @@ require(["jquery", "bootstrap", "populate-songs", "get-more-songs", "hbs"],
       		 });
       		 console.log("selectArtist", selectArtist);
  	}
-
-      
-        // populate.populateSongs(doSomethingWithTheData);
-       
-
-
-
     });
 

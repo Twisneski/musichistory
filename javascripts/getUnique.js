@@ -1,14 +1,21 @@
-// define(["lodash"], funtion(_) {
+// import * as _ from "lodash";
+
+
+
+
+// define(["jquery", "get-more-songs", "firebase", "hbs!../templates/songs", "q", "getUnique", "filter", "delete"], 
+//   function($, getmoresongs, firebase, songs, Q, getUnique, filter, delet){
+
 // 	return function(allSongsArray) {
 // 		//non-chained syntax
 // 		var uniqueArtists = _.uniq(allSongsArray, "artist");
 // 		var justTheArtists = _.pluck(uniqueArtists, "artist");
 
 // 		//Chained methods syntax
-// 		var uniqueAlbums: _.chain(allSongsArray)
-// 						   .uniq('album.name')
-// 						   .pluck('album')
-// 						   .value();
+// 		var uniqueAlbums = _.chain(allSongsArray)
+// 						   _.uniq('album.name')
+// 						   _.pluck('album')
+// 						   _.value();
 
 // 	return{
 // 		uniqueArtists: justTheArtists,
@@ -16,34 +23,6 @@
 // 	}
 //   };
 // });
-
-
-// define(["lodash"], funtion(_) {
-// 		return function{allSongsArray} {
-// 			var uniqueArtists = _.chain(allSongsArray)
-// 								 .uniq("artist")
-// 								 .pluck("artist")
-// 								 .value();
-// 			var uniqueArtists = _.uniq("artist");
-// 								 .pluck("artist")
-// 								 .value();
-
-// 			var uniqueAlbums = _.chain(allSongsArray)
-// 								.uniq('album.name')
-// 								.pluck('album')
-// 								.value();
-// 		return {
-// 			uniqueArtists: uniqueArtists,
-// 			uniqueAlbums: uniqueAlbums
-// 		}				 
-// 	};
-// });
-
-// var matchingAlbums = _.chain(config.originalSongsArray)
-//                       .filter((song) => song.artist === selectedArtist)
-//                       .uniq('album.name')
-//                       .pluck('album')
-//                       .value();
 
 
 

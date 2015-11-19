@@ -1,7 +1,6 @@
 define(["jquery", "script"], 
   function($, script){
 
-
 return {
 
 		addToSongList: function  () {
@@ -28,7 +27,7 @@ return {
     }
  };
 
-});
+}); //END OF DEFINE FUNCTION
 
 //this file is NO longer used
 
