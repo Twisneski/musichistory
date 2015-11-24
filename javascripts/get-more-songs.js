@@ -1,5 +1,5 @@
-define(["jquery", "script"], 
-  function($, script){
+define(function (require) {
+
 
 return {
 
