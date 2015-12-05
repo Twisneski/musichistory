@@ -1,97 +1,36 @@
- <!doctype html>
+<!doctype html>
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Nashville Software School</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <div>
-      <nav id="Boxed">
-        <ul>
-          <li><a href="/" id="viewMusic">View Music</a></li> |
-          <li><a href="/" id="addLink">Add Music</a></li> |
-          <li><a href="profile.html">Profile</a></li>
-        </ul>
-          
-        <div class="enterMusic" id="entryMusic">
-          <input id="userSongInput" type="text" name="addMusic" value="" placeholder="song">
-          <input id="userArtistInput"type="text" name="addMusic" value="" placeholder="artist">
-          <input id="userAlbum"type="text" name="addMusic" value="" placeholder="album">
-          <button type="" id="addMusic">Add</button>
-        </div>
-      </nav>
-     
-     <div id="leftColumn">   
-        <div>
-          <legend>Song Length</legend>
-          <input id="slider" type="range" name="song-range" min="15" max="25" step="0.5" value="18.5">
-        </div>
-        <div>
-          <label for="feedback-type">Artist</label>
-          <select class="feedback-type" name="type">
-            <option>Disturbed</option>
-            <option>Metallica</option>
-            <option>Shinedown</option>
-          </select>
-        </div>
-        <div>
-          <label for="feedback-type">Album</label>
-          <select class="feedback-type" name="type">
-            <option>Acoustics Sessions</option>
-            <option>The Sound of Madness</option>
-            <option>Threat to Survival</option>
-          </select>
-        </div>
-        <div class="genre-box">
-          <legend>Genre</legend> 
-          <ul>
-            <li><input type="checkbox" name="Rock" value="Rock"> Rock </li>
-            <li><input type="checkbox" name="Classical" value="Classical"> Classical</li>
-            <li><input type="checkbox" name="Pop" value="Pop"> Pop</li>
-            <li><input type="checkbox" name="Jazz" value="Jazz"> Jazz</li>
-            <li><input type="checkbox" name="Blues" value="Blues"> Blues</li>
-            <li><input type="checkbox" name="HipHop" value="HipHop"> Hip Hop </li>
-            
-          </ul>
-        </div>
-        <div>
-          <input type="submit" value="Filter"></input>
-        </div>
-      </div>
-      
-      <!-- </div> -->
-      <div id="rightColumn">
-        <div id="">
-         
-          <ul id="injectionSpot">
-          <!-- 
-            "<li ><span id='songname1' class='song-name'>Legs by ZZTop on the album Eliminator</span>"
-              
-            </li>
-          
-            <li ><span id="songname2" class="song-name">Song Name</span>
-              <p>Artist Name  | Album name |  Genre</p>
-            </li>
-        
-            <li ><span id="songname3" class="song-name">Song Name</span>
-              <p>Artist Name  | Album name |  Genre</p>
-            </li>
-            <li><span id="songname4" class="song-name">Song Name</span>
-              <p>Artist Name | Album name | Genre</p>
-            </li> -->
-           
-          </ul>
-          <button class="moreButton" type="">More</button>
-        </div>
-      </div>
-    </div>
-    
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+<head>
+  <meta charset="utf-8">
+  <title>NSS Starter Kit - Angular</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
 
-    <script src="script.js"></script>
-    <script src="ajax.js"></script>
+<nav>
+	<a href="#/songs/new">Add></a>
+	<a href="#/songs/list">List></a>
+</nav>
 
 
-  </body>
+<body ng-app="app">
+
+  <div ng-view></div>
+
+
+	<script src="lib/bower_components/angular/angular.min.js"></script>
+	<script src="lib/bower_components/angular-route/angular-route.min.js"></script>
+	<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+	<script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+
+	<!-- if I need a factory then place here -->
+
+	  <script src="App/app.js"></script>
+
+		  <script src="App/Controllers/SongCtrl.js"></script>
+		  <script src="App/Controllers/SongDetailCtrl.js"></script>
+		  <script src="App/Controllers/SongFormCtrl.js"></script>
+		  <script src="App/Controllers/SongListCtrl.js"></script>
+
+</body>
 </html>

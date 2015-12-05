@@ -2,15 +2,22 @@
 {
   "songs": [
     {
-      "title": "The Walk",
-      "artist": "Mayer Hawthorne",
-      "album": "How Do You Do"
+      "id": 1,
+      "title": "The Sound of Madness",
+      "artist": "Shinedown",
+      "album": "The Sound of Madness"
     },
     {
-      "title": "Medicine",
-      "artist": "Grace Potter",
-      "album": "Grace Potter and the Nocturnals"      
+      "id": 2,
+      "title": "The Sound of Madness",
+      "artist": "Shinedown",
+      "album": "The Crow and the Butterfly"      
+    },
+    {
+      "id": 3,
+      "title": "Liberate",
+      "artist": "Disturbed",
+      "album": "Believe"      
     }
-    
   ]
 }
