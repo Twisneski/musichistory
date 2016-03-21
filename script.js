@@ -12,19 +12,6 @@ songs.unshift("Down with the Sickness > Disturbed on the album Sickness");
 
 songs[songs.length] = "End Song Name";
 
-// songs[i] = songs
-    // .replace("*","")
-    // .replace("@","")
-    // .replace("(","")
-    // .replace("!","")
-
-
-// songs[1]= "REMOVE LOGICAL SONG"
-// console.log("song at the 1 place")
-// console.log(songs[1]);
-// console.log("Additional Song = "+ songs[6]);
-
-// 1. JAMES CODE
 var destination = document.getElementById('injectionSpot')
 var masterString = "";
 
@@ -39,29 +26,22 @@ for (var i = 0; i < songs.length; i++) {
     .replace("!","")
 
     console.log(song)
-    // 2. JAMES CODE
+
     songElement = "<li ><span id='songname1' class='song-name'>" + songs[i] + "</span>"
     masterString = masterString + songElement
 }
-console.log("final:")
-console.log( songs ); 
+    console.log("final:")
+    console.log( songs );
 
-// 3. JAMES CODE 
-destination.innerHTML = masterString;
-console.log(masterString)
+    destination.innerHTML = masterString;
+    console.log(masterString)
 
-
-"<li ><span id='songname1' class='song-name'>Legs - by Z*Ztop on the album Eliminator</span>"
+    "<li ><span id='songname1' class='song-name'>Legs - by Z*Ztop on the album Eliminator</span>"
 
 
 
 
 
 
-//  for (var i = 0; i <= 4; i++) {
-//  if (songs === songs [i]) {
-// ￼} 
-//  else
-// }
 
 
