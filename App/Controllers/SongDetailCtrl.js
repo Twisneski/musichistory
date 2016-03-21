@@ -1,13 +1,9 @@
-app.controller("SongDetailCtrl", 
+app.controller("SongDetailCtrl",
   ["$scope", "$routeParams", "$firebaseArray", function($scope, $routeParams, $firebaseArray) {
-//       $scope.song_list = simple_songs.getSong(1); // Returns the song with id:1
-//     }
-//   ]
-// );
 
     $scope.selectedSong = {};
-    // $routeParams allows you to grab the value of the current route parameters.  
-    // So, here we can pluck out the id of the particular song,  
+    // $routeParams allows you to grab the value of the current route parameters.
+    // So, here we can pluck out the id of the particular song,
     // because we set it in the href of the link from song-list partial.
     $scope.songId = $routeParams.songId;
 

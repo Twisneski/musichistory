@@ -1,6 +1,4 @@
-var app = angular.module("app", ["firebase", "ngRoute"]); 
-//need help with dependency to SongStorage;
-
+var app = angular.module("app", ["firebase", "ngRoute"]);
 
 app.config(['$routeProvider',
   function($routeProvider) {
@@ -17,12 +15,8 @@ app.config(['$routeProvider',
         templateUrl: 'partials/song-detail.html',
         controller: 'SongDetailCtrl'
       })
-
       .otherwise('/songs/list');
-
-
-
-  }]);
+}]);
 
 
 
